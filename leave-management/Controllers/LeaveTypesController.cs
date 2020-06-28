@@ -44,7 +44,7 @@ namespace leave_management.Controllers
         }
 
         // GET: LeaveTypesController1/Create
-        [Authorize(Roles = "Administrator"]
+        [Authorize(Roles = "Administrator")]
         public ActionResult Create()
         {
             return View();
